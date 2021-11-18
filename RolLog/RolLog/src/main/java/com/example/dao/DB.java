@@ -26,7 +26,7 @@ public class DB {
 		}
 		
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost/rollog", "zeenat", "zeenat123");
+			con = DriverManager.getConnection("jdbc:mysql://localhost/rollog", "root", "root");
 			System.out.println("Connection Created");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
