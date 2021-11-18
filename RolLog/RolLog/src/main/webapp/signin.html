@@ -54,23 +54,23 @@
    <div class="container-fluid mt-4">
       <div class="row">
         <div class="col-lg-6 mb-5 mb-lg-0">
-          <form action="#" class="contact-form py-5 px-lg-5">
+          <form action="SignInController" method="post" class="contact-form py-5 px-lg-5">
             <h2 class="mb-4 font-weight-medium text-secondary">Sign In</h2>
             <div class="row form-group">
               <div class="col-md-6 mb-3 mb-md-0">
                 <label class="text-black" for="fname">First Name</label>
-                <input type="text" id="fname" class="form-control">
+                <input type="text" id="fname" class="form-control" name= "fname">
               </div>
               <div class="col-md-6">
                 <label class="text-black" for="lname">Last Name</label>
-                <input type="text" id="lname" class="form-control">
+                <input type="text" id="lname" class="form-control" name= "lname">
               </div>
             </div>
     
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="text-black" for="email">Email</label>
-                <input type="email" id="email" class="form-control">
+                <input type="email" id="email" class="form-control" name = "email">
               </div>
             </div>
     
@@ -78,7 +78,7 @@
     
               <div class="col-md-12">
                 <label class="text-black" for="subject">Password</label>
-                <input type="password" id="subject" class="form-control">
+                <input type="password" id="subject" class="form-control" name= "pass">
               </div>
             </div>
     
